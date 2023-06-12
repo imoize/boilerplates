@@ -3,7 +3,7 @@
 CONF_KMSG='/usr/local/bin/conf-kmsg.sh'
 SERVICE_KMSG='/etc/systemd/system/conf-kmsg.service'
 GPG='gpg'
-PKGS='curl apt-transport-https curl helm'
+PKGS='curl apt-transport-https helm'
 INSTALL=false
 GREEN=$(tput setaf 2)
 CYAN=$(tput setaf 6)
