@@ -25,9 +25,9 @@ Finally run
 ./k3s-lxc.sh
 ```
 
-## Misc
+## Uninstalling
 
-If you want remove or uninstall simply just run this command
+If you want remove or uninstall simply just run this command and reboot
 
 ```bash
 ./k3s-lxc.sh -u
