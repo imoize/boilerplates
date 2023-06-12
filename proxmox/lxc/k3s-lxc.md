@@ -1,7 +1,7 @@
 # Script for setup requirement installing K3s on Proxmox LXC
 
 ## Introduction
-You can fetch this script, and then execute it locally. You can read through it and understand what it is doing before you run it.
+You can fetch this [script](https://github.com/imoize/scripts-repo/blob/master/proxmox/lxc/scripts/k3s-lxc.sh), and then execute it locally. You can read through it and understand what it is doing before you run it.
 
 This installer script that will automatically setup requirement for installing k3s on lxc. This script will install **`Helm`** [package manager for Kubernetes.](https://helm.sh/)
 
