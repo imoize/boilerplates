@@ -12,7 +12,7 @@ And make sure that /dev/kmsg exists. Kubelet uses this for some logging function
 To grab this script run this following command
 
 ```bash
-curl -fsSL -o k3s-lxc.sh https://raw.githubusercontent.com/imoize/scripts-repo/master/proxmox/lxc/scripts/k3s-lxc.sh
+wget -qO k3s-lxc.sh https://raw.githubusercontent.com/imoize/scripts-repo/master/proxmox/lxc/scripts/k3s-lxc.sh
 ```
 
 Make file executable
