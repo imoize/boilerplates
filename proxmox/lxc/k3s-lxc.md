@@ -1,7 +1,7 @@
 # Script for setup requirement installing K3s on Proxmox LXC
 
 ## Introduction
-You can fetch this [script](https://github.com/imoize/scripts-repo/blob/master/proxmox/lxc/scripts/k3s-lxc.sh), and then execute it locally. You can read through it and understand what it is doing before you run it.
+You can fetch this [script](./scripts/k3s-lxc.sh), and then execute it locally. You can read through it and understand what it is doing before you run it.
 
 This installer script that will automatically setup requirement for installing k3s on lxc. This script will install **`Helm`** [package manager for Kubernetes.](https://helm.sh/)
 
@@ -12,7 +12,7 @@ And make sure that /dev/kmsg exists. Kubelet uses this for some logging function
 To grab this script run this following command
 
 ```bash
-wget -qO k3s-lxc.sh https://raw.githubusercontent.com/imoize/scripts-repo/master/proxmox/lxc/scripts/k3s-lxc.sh
+wget -qO k3s-lxc.sh https://raw.githubusercontent.com/imoize/boilerplates/master/proxmox/lxc/scripts/k3s-lxc.sh
 ```
 
 Make file executable
