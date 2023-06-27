@@ -1,7 +1,7 @@
 # About this repo
-Here my personal scripts or template collection.
+Here my personal scripts or template i use.
 
 ## Proxmox Script
 
 #### LXC
-- [Installing k3s in proxmox lxc](https://github.com/imoize/boilerplates/blob/master/proxmox/lxc/k3s-lxc.md)
+- [Setup script for k3s in privileged lxc](./proxmox/lxc/k3s-lxc.md)
