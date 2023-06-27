@@ -10,13 +10,13 @@ CY=$(tput setaf 6)
 NC=$(tput sgr 0)
 
 usage() {
-    helpify "-r, --remove, -u, --uninstall" "" "Remove all installed" ""
+    helpify "-u, --uninstall" "" "Remove all installed" ""
 }
 
 while [[ $# -gt 0 ]]; do
 
 case "${1}" in
-    -r|--remove|-u|-uninstall)
+    -u|-uninstall)
     uninstall='true'; shift ;;
 esac
 done
