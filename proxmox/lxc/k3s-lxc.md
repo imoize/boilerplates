@@ -9,6 +9,8 @@ And make sure that /dev/kmsg exists. Kubelet uses this for some logging function
 
 ## Installation
 
+NOTE: This script requires superuser privileges.
+
 To grab this script run this following command
 
 ```bash
@@ -17,12 +19,12 @@ wget -qO k3s-lxc.sh https://raw.githubusercontent.com/imoize/boilerplates/master
 
 Make file executable
 ```bash
-chmod +x k3s-lxc.sh
+sudo chmod +x k3s-lxc.sh
 ```
 
 Finally run
 ```bash
-./k3s-lxc.sh
+sudo ./k3s-lxc.sh
 ```
 
 ## Uninstalling
@@ -30,5 +32,5 @@ Finally run
 If you want remove or uninstall simply just run this command and reboot
 
 ```bash
-./k3s-lxc.sh -u
+sudo ./k3s-lxc.sh -u
 ```
