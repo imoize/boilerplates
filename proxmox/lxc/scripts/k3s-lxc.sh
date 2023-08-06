@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 CONF_KMSG='/usr/local/bin/conf-kmsg.sh'
 SERVICE_KMSG='/etc/systemd/system/conf-kmsg.service'
@@ -8,6 +8,12 @@ INSTALL=false
 GR=$(tput setaf 2)
 CY=$(tput setaf 6)
 NC=$(tput sgr 0)
+
+# Check if the script is being run with superuser privileges
+if [[ $(id -u) -ne 0 ]]; then
+    echo "${GR}This script requires superuser privileges. Please run it with 'sudo'.${NC}"
+    exit 1
+fi
 
 usage() {
     helpify "-u, --uninstall" "" "Remove all installed" ""
